@@ -1,0 +1,175 @@
+h1, p {
+  font-weight: 700; }
+
+#about {
+  background: url(../img/banner.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden; }
+  #about .navbar a {
+    color: #fff;
+    font-weight: 600; }
+  #about .navbar .nav-img {
+    width: 100px;
+    cursor: pointer; }
+  #about .about-text {
+    margin-top: 100px; }
+    #about .about-text .b1 {
+      background: #2BA879;
+      color: white;
+      padding: 15px; }
+    #about .about-text .b2 {
+      background: #23272B;
+      color: white;
+      padding: 15px; }
+  #about .form-control {
+    height: 70px;
+    border-radius: 35px; }
+  #about .b3 i {
+    font-size: 30px; }
+  #about .b3 i:hover {
+    color: red; }
+
+@media screen and (max-width: 575px) {
+  #about .nav-btn {
+    background-color: #2AAB7C;
+    margin-top: 20px;
+    width: 100%;
+    border: solid 2px #fff;
+    border-radius: 25px; }
+  #about .nav-img {
+    background-attachment: fixed;
+    background-position: center; }
+  #about .navbar-nav {
+    background: #fff; }
+  #about .nav-item {
+    border-bottom: 1px solid #000; }
+    #about .nav-item a {
+      color: #000;
+      font-weight: 600;
+      padding: 15px;
+      text-align: center; } }
+
+#card span {
+  color: #2BA879; }
+
+#card .card-header {
+  background-color: #9ADCD1;
+  border-radius: 35px; }
+
+#card .card-green {
+  background-color: #2BA879;
+  border-radius: 35px;
+  margin-top: 30px;
+  color: #fff; }
+
+#card .card-normal {
+  background-color: #fff;
+  border-radius: 35px;
+  margin-top: 30px; }
+
+#card .btn {
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 35px;
+  border-radius: 35px;
+  height: 50px;
+  width: 150px; }
+
+#wave {
+  margin-top: 100px;
+  background-color: #2AAB7C;
+  height: 450px; }
+  #wave img {
+    margin-top: 75px;
+    height: 300px;
+    width: 350px; }
+  #wave .image {
+    width: 100%; }
+  #wave .card {
+    margin-top: 75px;
+    height: 300px;
+    width: 350px; }
+    #wave .card h2 {
+      color: #2BA879;
+      font-weight: 700;
+      font-size: 44px; }
+
+#services span {
+  color: #2BA879; }
+
+#services .card-service {
+  border: #2AAB7C solid 1px;
+  border-radius: 35px; }
+
+#services .card-special {
+  background-color: #2AAB7C;
+  border-radius: 35px;
+  color: #fff; }
+
+#services .btn {
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 45px;
+  border-radius: 35px;
+  height: 50px;
+  width: 150px; }
+
+#form {
+  background-image: url(../img/contact-bg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
+  #form .form-group {
+    background: #2AAB7C;
+    padding: 15px;
+    border-radius: 35px; }
+    #form .form-group .btn {
+      background-color: #CE4109;
+      color: #fff;
+      height: 50px;
+      width: 100px;
+      font-size: 24px; }
+
+#footer {
+  background: #2C2C2C;
+  color: #fff;
+  margin-top: -100px; }
+  #footer .map {
+    background-color: #fff;
+    color: #000;
+    margin-top: 40px;
+    border-radius: 40px; }
+  #footer .list {
+    list-style: none; }
+    #footer .list a {
+      color: #fff; }
+    #footer .list a:hover {
+      color: #2BA879; }
+  #footer .product a {
+    color: #fff; }
+  #footer .product a:hover {
+    color: #2BA879; }
+  #footer .product i {
+    color: #2BA879; }
+  #footer .subscribe .form-control {
+    border-radius: 40px; }
+  #footer .subscribe .btn {
+    background: #2BA879;
+    color: #fff; }
+  #footer .subscribe .btn:hover {
+    background: #fff;
+    color: #000; }
+
+.copyright {
+  background: #2AAB7C;
+  padding: 30px;
+  color: #fff;
+  margin-top: -40px; }
